@@ -1,0 +1,20 @@
+<!-- <?php
+$sql="SELECT * from tblpage where PageType='contactus'";
+$query = $dbh -> prepare($sql);
+$query->execute();
+$results=$query->fetchAll(PDO::FETCH_OBJ);
+
+$cnt=1;
+if($query->rowCount() > 0)
+{
+foreach($results as $row)
+{}              ?> -->
+
+
+
+
+
+dentro del ul
+ <!-- <li class="toolbar-email"><i class="fa fa-envelope-o"></i> <?php  echo htmlentities($row->Email);?></li> -->
+          <!-- //<li class="toolbar-contact"><i class="fa fa-phone"></i> +<?php  echo htmlentities($row->MobileNumber);?></li><?php $cnt=$cnt+1;}} ?> -->
+          
